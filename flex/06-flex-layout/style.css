@@ -51,11 +51,12 @@ body
 {
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
+  /*flex: 1;*/
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  
+  flex: 2;
+ 
 }
 
 .content > *
@@ -81,11 +82,13 @@ button {
   justify-content: space-between;
   margin: 0;
   padding: 15px;
+  /*flex: 1;*/
 }
 
 .footer
 {
   background-color: #eeeeee;
+  max-height: fit-content;
 }
 
 .footer >* ,.header >*
@@ -95,6 +98,10 @@ button {
   gap: 10px; 
 }
 
+.footer> ul
+{
+  align-self: end;
+}
 
 /*
 .footer.left-links
