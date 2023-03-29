@@ -27,4 +27,88 @@ body {
   border-radius: 4px;
 }
 
-/**/
+
+
+
+body
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.content
+{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.header, .footer
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header
+{
+  margin-bottom: auto;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.footer
+{
+  margin-top: auto;
+  justify-content: center;
+}
+
+a:link , a:visited, a:hover, a:active
+{
+  color: white;
+  text-decoration: none;
+}
+
+ul, li
+{
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px;
+  padding: 5px;
+}
+
+
+.sidebar
+{
+  display: flex;
+  padding: 10px;
+  
+}
+
+.cards
+{
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 40px;
+}
+
+.cards > .card
+{
+  min-width: 300px;
+  min-height: 140px;
+  max-width: 300px;
+  max-height: auto;
+  padding: 20px;
+}
+
+
+
+
+
